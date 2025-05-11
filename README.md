@@ -1,2 +1,5 @@
 # DiscordThemes
-Themes I'll be creating will go here
+
+## Purple Dreams
+
+### Version: 1.0
