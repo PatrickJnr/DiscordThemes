@@ -1,36 +1,37 @@
 /**
- * @name Purple Dreams
+ * @name Purple Dreams - Catppuccin Mocha
  * @author PatrickJr
- * @version 1.0
- * @description A cute pastel purple theme
+ * @version 2.1
+ * @description A cute pastel purple theme inspired by Catppuccin Mocha
  * @authorId 219086664587280385
  * @authorLink https://grimtech.co.uk
  * @source https://github.com/PatrickJnr/DiscordThemes
  * @website https://grimtech.co.uk
  */
 
- @import"https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap";
- :root,
- .visual-refresh,
- .visual-refresh.theme-dark {
-     /* Core Colors */
-    --highlight: #b893ce;
-    --background: #262335;
-    --text: #dddddd;
-    --text-link: #03edf9;
-    --text-muted: #848bbd;
-    --border-color: #495495;
-    
-    /* Status Colors */
-    --close-button: #fe4450;
-    --online-color: #43b581;
-    --afk-color: #faa61a;
-    --dnd-color: #fe4450;
-    --streaming-color: #593695;
-    
-    /* Panel & Input Colors */
-    --background-secondary-panels: #241b2f;
-    --input-field-background: #2a2139;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
+:root,
+.visual-refresh,
+.visual-refresh.theme-dark {
+    /* Core Colors - Catppuccin Mocha */
+    --highlight: #cba6f7;
+    --background: #1e1e2e;
+    --text: #cdd6f4;
+    --text-link: #89b4fa;
+    --text-muted: #a6adc8;
+    --border-color: #585b70;
+
+    /* Status Colors - Catppuccin Mocha */
+    --close-button: #f38ba8;
+    --online-color: #a6e3a1;
+    --afk-color: #f9e2af;
+    --dnd-color: #f38ba8;
+    --streaming-color: #cba6f7;
+
+    /* Panel & Input Colors - Catppuccin Mocha */
+    --background-secondary-panels: #181825;
+    --input-field-background: #313244;
     --scrollbar-thin-thumb: var(--highlight);
     --scrollbar-auto-thumb: var(--highlight);
     --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
@@ -45,12 +46,12 @@
     --background-brightness: 100%;
     --show-original-title: 0;
     --show-custom-title: 1;
-    --custom-title-text: "Purple Dreams";
+    --custom-title-text: "Purple Dreams - Mocha";
     --custom-title-font-size: 16px;
     --custom-title-font-weight: 500;
     --custom-title-margin-top: 0px;
     --custom-title-margin-left: 0px;
-    
+
     /* Backgrounds */
     --background-primary: var(--background);
     --background-secondary: var(--background-secondary-panels);
@@ -62,7 +63,7 @@
     --modal-footer-background: var(--input-field-background);
     --bg-surface-overlay: var(--input-field-background);
     --activity-card-background: var(--input-field-background);
-    
+
     /* Modifiers */
     --background-modifier-accent: rgba(var(--highlight-rgb), 0.2);
     --background-modifier-hover: rgba(var(--highlight-rgb), 0.1);
@@ -71,41 +72,41 @@
     --background-base-lowest: var(--background);
     --background-base-low: var(--background);
     --background-surface-high: var(--background);
-    
-    /* RGB Colors */
-    --highlight-rgb: 184, 147, 206;
-    --close-button-rgb: 254, 68, 80;
-    --online-color-rgb: 67, 181, 129;
-    --afk-color-rgb: 250, 166, 26;
-    --dnd-color-rgb: 254, 68, 80;
-    --streaming-color-rgb: 89, 54, 149;
-    --border-color-rgb: 73, 84, 149;
-    --text-link-rgb: 3, 237, 249;
-    --text-muted-rgb: 132, 139, 189;
-    
+
+    /* RGB Colors - Catppuccin Mocha */
+    --highlight-rgb: 203, 166, 247;
+    --close-button-rgb: 243, 139, 168;
+    --online-color-rgb: 166, 227, 161;
+    --afk-color-rgb: 249, 226, 175;
+    --dnd-color-rgb: 243, 139, 168;
+    --streaming-color-rgb: 203, 166, 247;
+    --border-color-rgb: 88, 91, 112;
+    --text-link-rgb: 137, 180, 250;
+    --text-muted-rgb: 166, 173, 200;
+
     /* Danger Buttons */
     --button-danger-background: rgba(var(--close-button-rgb), 0.2);
     --button-danger-background-hover: rgba(var(--close-button-rgb), 0.7);
     --button-danger-background-active: var(--close-button);
     --button-danger-background-disabled: rgba(var(--close-button-rgb), 0.2);
-    
+
     /* Danger Outlines */
     --button-outline-danger-border: rgba(var(--close-button-rgb), 0.5);
     --button-outline-danger-background: rgba(var(--close-button-rgb), 0.5);
     --button-outline-danger-background-hover: rgba(var(--close-button-rgb), 0.7);
     --button-outline-danger-background-active: var(--close-button);
-    --button-outline-danger-text: rgba(var(--close-button-rgb), 0.7); 
+    --button-outline-danger-text: rgba(var(--close-button-rgb), 0.7);
     --button-outline-danger-text-hover: var(--text);
-    --button-outline-danger-text-active: var(--text); 
+    --button-outline-danger-text-active: var(--text);
     --button-outline-danger-border-hover: rgba(var(--close-button-rgb), 0.7);
     --button-outline-danger-border-active: var(--close-button);
-    
+
     /* Positive Buttons */
     --button-positive-background: rgba(var(--online-color-rgb), 0.2);
     --button-positive-background-hover: rgba(var(--online-color-rgb), 0.7);
     --button-positive-background-active: var(--online-color);
     --button-positive-background-disabled: rgba(var(--online-color-rgb), 0.2);
-    
+
     /* Positive Outlines */
     --button-outline-positive-border: rgba(var(--online-color-rgb), 0.5);
     --button-outline-positive-background: rgba(var(--online-color-rgb), 0.5);
@@ -116,13 +117,13 @@
     --button-outline-positive-text-active: var(--background);
     --button-outline-positive-border-hover: rgba(var(--online-color-rgb), 0.7);
     --button-outline-positive-border-active: var(--online-color);
-    
+
     /* Primary Buttons */
     --button-primary-background: rgba(var(--highlight-rgb), 0.2);
     --button-primary-background-hover: rgba(var(--highlight-rgb), 0.7);
     --button-primary-background-active: var(--highlight);
     --button-primary-background-disabled: rgba(var(--highlight-rgb), 0.2);
-    
+
     /* Primary Outlines */
     --button-outline-primary-border: rgba(var(--highlight-rgb), 0.5);
     --button-outline-primary-background: rgba(var(--highlight-rgb), 0.5);
@@ -133,13 +134,13 @@
     --button-outline-primary-text-active: var(--background);
     --button-outline-primary-border-hover: rgba(var(--highlight-rgb), 0.7);
     --button-outline-primary-border-active: var(--highlight);
-    
+
     /* Secondary Buttons */
     --button-secondary-background: rgba(var(--border-color-rgb), 0.2);
     --button-secondary-background-hover: rgba(var(--border-color-rgb), 0.7);
     --button-secondary-background-active: var(--border-color);
     --button-secondary-background-disabled: rgba(var(--border-color-rgb), 0.2);
-    
+
     /* Secondary Outlines */
     --button-outline-secondary-border: rgba(var(--border-color-rgb), 0.5);
     --button-outline-secondary-background: rgba(var(--border-color-rgb), 0.5);
@@ -150,13 +151,13 @@
     --button-outline-secondary-text-active: var(--text);
     --button-outline-secondary-border-hover: rgba(var(--border-color-rgb), 0.7);
     --button-outline-secondary-border-active: var(--border-color);
-    
+
     /* Brand Buttons */
     --button-brand-background: rgba(var(--highlight-rgb), 0.2);
     --button-brand-background-hover: rgba(var(--highlight-rgb), 0.7);
     --button-brand-background-active: var(--highlight);
     --button-brand-background-disabled: rgba(var(--highlight-rgb), 0.2);
-    
+
     /* Brand Outlines */
     --button-outline-brand-border: rgba(var(--highlight-rgb), 0.5);
     --button-outline-brand-background: rgba(var(--highlight-rgb), 0.5);
@@ -167,34 +168,37 @@
     --button-outline-brand-text-active: var(--background);
     --button-outline-brand-border-hover: rgba(var(--highlight-rgb), 0.7);
     --button-outline-brand-border-active: var(--highlight);
-    
+
     /* Filled Brand Buttons */
     --button-filled-brand-background: rgba(var(--highlight-rgb), 0.2);
     --button-filled-brand-background-hover: rgba(var(--highlight-rgb), 0.7);
     --button-filled-brand-background-border: rgba(var(--highlight-rgb), 0.5);
     --button-filled-brand-background-active: var(--highlight);
-    
+
     /* Search Popout */
     --search-popout-option-user-nickname: var(--highlight);
     --search-popout-option-user-username: rgba(var(--text-muted-rgb), 0.7);
     --search-popout-option-filter-text: rgba(var(--text-muted-rgb), 0.7);
     --search-popout-date-picker-border: 1px solid var(--border-color);
-    
+
     /* Interactive */
     --interactive-muted: rgba(var(--text-muted-rgb), 0.7);
     --interactive-normal: var(--text-muted);
     --interactive-hover: var(--highlight);
     --interactive-active: var(--highlight);
-    
+
     /* Status */
     --status-danger: var(--dnd-color);
     --status-warning: var(--afk-color);
     --status-positive: var(--online-color);
-    
+
     /* Profile Gradient */
     --profile-gradient-primary-color: var(--background);
     --profile-gradient-secondary-color: var(--background);
-    
+
+    /* Selection */
+    --selection-background: rgba(var(--highlight-rgb), 0.6);
+
     /* Branding */
     --bg-brand: var(--highlight);
     --brand-experiment: var(--highlight);
@@ -249,388 +253,554 @@
     --border-faint: var(--border-color);
     --border-subtle: var(--border-color);
     --app-border-frame: var(--border-color);
-     --brand-experiment-730: var(--highlight);
-     --brand-experiment-760: var(--highlight);
-     --brand-experiment-800: var(--highlight);
-     --brand-experiment-830: var(--highlight);
-     --brand-experiment-860: var(--highlight);
-     --brand-experiment-900: var(--highlight);
-     --brand-experiment-930: var(--highlight);
-     --brand-experiment-960: var(--highlight);
-     --brand-experiment-05a: var(--highlight);
-     --brand-experiment-10a: var(--highlight);
-     --brand-experiment-15a: var(--highlight);
-     --brand-experiment-20a: var(--highlight);
-     --brand-experiment-25a: var(--highlight);
-     --brand-experiment-30a: var(--highlight);
-     --brand-experiment-35a: var(--highlight);
-     --brand-experiment-40a: var(--highlight);
-     --brand-experiment-45a: var(--highlight);
-     --brand-experiment-50a: var(--highlight);
-     --brand-experiment-55a: var(--highlight);
-     --brand-experiment-60a: var(--highlight);
-     --brand-experiment-65a: var(--highlight);
-     --brand-experiment-70a: var(--highlight);
-     --brand-experiment-75a: var(--highlight);
-     --brand-experiment-80a: var(--highlight);
-     --brand-experiment-85a: var(--highlight);
-     --brand-experiment-90a: var(--highlight);
-     --brand-experiment-95a: var(--highlight);
-     --primary-630: var(--background);
-     --brand-500: var(--highlight);
-     --border-faint: var(--border-color);
-     --border-subtle: var(--border-color);
-     --app-border-frame: var(--border-color);
- }
-  
-  .theme-dark body {
-      background-color: var(--background);
-      background-image: var(--background-image);
-      background-position: var(--background-position);
-      background-size: var(--background-size);
-      backdrop-filter: blur(var(--background-blur)) brightness(var(--background-brightness));
-      font-family: 'Quicksand', sans-serif;
-  }
-  
-  .theme-dark .appMount__51fd7,
-  .theme-dark .app__160d8,
-  .theme-dark .bg__960e4,
-  .theme-dark .guilds_c48ade,
-  .theme-dark .scroller_ef3116,
-  .theme-dark .sidebar_c48ade,
-  .theme-dark .sidebar_c48ade::after,
-  .theme-dark .container__2637a,
-  .theme-dark .chat_f75fb0,
-  .theme-dark .chatContent_f75fb0,
-  .theme-dark .title_f75fb0,
-  .theme-dark .searchBar__97492,
-  .theme-dark .container_c8ffbb,
-  .theme-dark .members_c8ffbb,
-  .theme-dark .content_f75fb0,
-  .theme-dark .container__91a9d,
-  .theme-dark .channelTextArea__74017,
-  .theme-dark .container__133bf,
-  .theme-dark .section__00943,
-  .theme-dark .nowPlayingColumn__133bf,
-  .theme-dark .container__7d20c,
-  .theme-dark .itemCard__7e549,
-  .theme-dark .inset_bf1984,
-  .theme-dark .container__9293f,
-  .theme-dark .privateChannels__35e86,
-  .theme-dark .scroller__99e7c,
-  .theme-dark .layer__960e4,
-  .theme-dark .standardSidebarView__23e6b,
-  .theme-dark .sidebarRegionScroller__23e6b,
-  .theme-dark .contentRegion__23e6b,
-  .theme-dark .contentRegionScroller__23e6b,
-  .theme-dark .container__4a84a,
-  .theme-dark .stickyHeader_adb41f,
-  .theme-dark .scroller_fb04e1,
-  .theme-dark .pageWrapper_a3a4ce,
-  .theme-dark .footer__214dc,
-  .theme-dark .container_f369db {
-      background: rgba(0, 0, 0, 0) !important
-  }
-  
-  .theme-dark #app-mount .wrapper__44b0c rect[fill="#593695"],
-  .theme-dark #app-mount .wrapper__44b0c rect[mask*=streaming] {
-      fill: var(--streaming-color)
-  }
-  
-  .theme-dark #app-mount .wrapper__44b0c rect[fill="#43b581"],
-  .theme-dark #app-mount .wrapper__44b0c rect[mask*=online] {
-      fill: var(--online-color)
-  }
-  
-  .theme-dark #app-mount .wrapper__44b0c rect[fill="#faa61a"],
-  .theme-dark #app-mount .wrapper__44b0c rect[mask*=idle] {
-      fill: var(--afk-color)
-  }
-  
-  .theme-dark #app-mount .wrapper__44b0c rect[fill="#f04747"],
-  .theme-dark #app-mount .wrapper__44b0c rect[mask*=dnd] {
-      fill: var(--dnd-color)
-  }
-  
-  .theme-dark .numberBadge__40d6f {
-      background-color: rgba(var(--highlight-rgb), 0.7) !important;
-      color: var(--background)
-  }
-  
-  .theme-dark .isUnread__908e2 {
-      border: 1px solid var(--highlight)
-  }
-  
-  .theme-dark .content__908e2 {
-      color: var(--highlight)
-  }
-  
-  .theme-dark .wrapper__2ea32:hover .unread__2ea32 {
-      background-color: var(--highlight)
-  }
-  
-  .theme-dark .guildSeparator-33mFX6 {
-      background-color: var(--border-color);
-      border-radius: 2px
-  }
-  
-  .theme-dark .unreadPillCapStroke__908e2 {
-      color: var(--highlight);
-      fill: var(--highlight)
-  }
-  
-  .theme-dark .unreadPill__908e2 {
-      background-color: var(--highlight);
-      color: var(--background) !important
-  }
-  
-  .theme-dark .bar__3b95d,
-  .theme-dark .newMessagesBar__0f481 {
-      background-color: var(--highlight);
-      color: var(--background)
-  }
-  
-  .theme-dark .membersGroup_c8ffbb {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--text-muted);
-      padding: 0px
-  }
-  
-  .theme-dark .membersGroup_c8ffbb::before {
-      content: "";
-      width: 100%;
-      height: 2px;
-      margin-right: 3px;
-      display: inline-block;
-      background: linear-gradient(90deg, rgba(var(--text-muted-rgb), 0) 0%, var(--text-muted) 100%)
-  }
-  
-  .theme-dark .membersGroup_c8ffbb::after {
-      content: "";
-      width: 100%;
-      height: 2px;
-      margin-left: 3px;
-      display: inline-block;
-      background: linear-gradient(90deg, var(--text-muted) 0%, rgba(var(--text-muted-rgb), 0) 100%)
-  }
-  
-  .theme-dark .containerDefault__29444 {
-      display: flex;
-      align-items: center;
-      justify-content: center
-  }
-  
-  .theme-dark .containerDefault__29444 div div {
-      color: var(--text-muted);
-  }
-  
-  .theme-dark .arrow_d64d50 {
-      display: none
-  }
-  
-  .theme-dark .container-q97qHp .overflow__82b15 {
-      max-width: 8vw
-  }
-  
-  .theme-dark .containerDefault__29444::before {
-      content: "";
-      width: 100%;
-      height: 2px;
-      margin-right: -11px;
-      display: inline-block;
-      background: linear-gradient(90deg, rgba(var(--text-muted-rgb), 0) 0%, var(--text-muted) 100%)
-  }
-  
-  .theme-dark .containerDefault__29444::after {
-      content: "";
-      width: 100%;
-      height: 2px;
-      margin-left: -3px;
-      display: inline-block;
-      background: linear-gradient(90deg, var(--text-muted) 0%, rgba(var(--text-muted-rgb), 0) 100%)
-  }
-  
-  .theme-dark .panels_c48ade {
-      background-color: var(--background-secondary-panels)
-  }
-  
-  .theme-dark .outer_c0bea0:not(.custom-user-profile) {
-      background-color: var(--background-secondary-panels)
-  }
-  
-  .theme-dark .outer_c0bea0:not(.custom-user-profile) .inner_c0bea0.fullSize_c0bea0,
-  .theme-dark .outer_c0bea0:not(.custom-user-profile) .inner_c0bea0.biteSize_c0bea0 {
-      background: inherit
-  }
-  
-  .theme-dark .reactionMe__23977 {
-      border-color: var(--highlight) !important
-  }
-  
-  .theme-dark .reactionMe__23977 .reactionCount__23977 {
-      color: var(--background) !important
-  }
-  
-  .theme-dark .reaction__23977,
-  .theme-dark .reactionBtn__23977 {
-      border-color: rgba(var(--highlight-rgb), 0.3)
-  }
-  
-  .theme-dark .reactionBtn__23977:hover {
-      border-color: var(--highlight)
-  }
-  
-  .theme-dark .botText__82f07,
-  .theme-dark .botTagVerified__82f07 {
-      color: var(--background)
-  }
-  
-  .theme-dark .scrollableContainer__74017 {
-      background-color: var(--input-field-background)
-  }
-  
-  .theme-dark .replying__5126c:hover {
-      background-color: rgba(var(--highlight-rgb), 0.6) !important
-  }
-  
-  .theme-dark .ephemeral__5126c {
-      background-color: rgba(var(--highlight-rgb), 0.3)
-  }
-  
-  .theme-dark .ephemeral__5126c:hover {
-      background-color: rgba(var(--highlight-rgb), 0.4) !important
-  }
-  
-  .theme-dark .mentioned__5126c::before {
-      background-color: var(--highlight)
-  }
-  
-  .theme-dark .autocompleteInner__13533 {
-      background-color: var(--input-field-background)
-  }
-  
-  .theme-dark .selected_c69b6d .icon__2ea32,
-  .theme-dark .selected_c69b6d .actionIcon_c69b6d:hover,
-  .theme-dark .selected_c69b6d .name__2ea32 {
-      color: var(--highlight) !important
-  }
-  
-  .theme-dark .selected_c69b6d .link__2ea32 {
-      background-color: rgba(var(--highlight-rgb), 0.2) !important
-  }
-  
-  .theme-dark .contentWrapper__08434,
-  .theme-dark .header__8ef02,
-  .theme-dark .header_fed6d3,
-  .theme-dark .header_c0e32c,
-  .theme-dark .categoryList__3ad28,
-  .theme-dark .scroller_affa7e,
-  .theme-dark .packHeader_e94b8c,
-  .theme-dark .header_c656ac,
-  .theme-dark .inspector_aeaaeb,
-  .theme-dark .emojiPicker_c0e32c,
-  .theme-dark .unicodeShortcut_b9ee0c,
-  .theme-dark #gif-picker-tab-panel {
-      background-color: var(--input-field-background)
-  }
-  
-  .theme-dark .emptyGuildUpsell_e94b8c {
-      background-color: var(--input-field-background);
-      border: 1px solid var(--border-color);
-      margin-bottom: 2px
-  }
-  
-  .theme-dark .emptyGuildUpsell_e94b8c .contents__201d5 {
-      color: var(--text-link)
-  }
-  
-  .theme-dark .categoryItemDefaultCategorySelected_b9ee0c,
-  .theme-dark .stickerCategoryGenericSelected__3ad28 {
-      background-color: var(--highlight)
-  }
-  
-  .theme-dark .categoryFadeBlurple_d02962 {
-      --bg-brand: var(--highlight)
-  }
-  
-  .theme-dark .contentWrapper__9c62c {
-      --bg-base-secondary: var(--background-secondary-panels);
-      --input-border: var(--border-color);
-      --text-link: var(--text-link);
-      --text-brand: var(--highlight);
-      --bg-mod-subtle: var(--highlight)
-  }
-  
-  .theme-dark .appDetailsContainer_cb32c7 {
-      background-color: var(--background-secondary-panels)
-  }
-  
-  .theme-dark .children__9293f:after,
-  .theme-dark .form_f75fb0::before,
-  .theme-dark .option__56fec:after {
-      display: none
-  }
-  
-  html,
-  body,
-  input, 
-  textarea,
-  .root_a28985, 
-  .markup_a7e664,
-  .name_c04abd
-  {
-      font-family: 'Quicksand', sans-serif !important;
-  }
-  
-  img[src*="avatars/219086664587280385"]+.header_c19a55::after,
-  img[src*="users/219086664587280385"]+.header_c19a55::after {
-      content: "Theme Author";
-      display: inline-block;
-      background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTExLjQgMTguMTYxbDcuMzk2LTcuMzk2YTEwLjMgMTAuMyAwIDAgMS0zLjMyNi0yLjIzNGExMC4zIDEwLjMgMCAwIDEtMi4yMzUtMy4zMjdMNS44MzkgMTIuNmMtLjU3Ny41NzctLjg2Ni44NjYtMS4xMTQgMS4xODRhNi42IDYuNiAwIDAgMC0uNzQ5IDEuMjExYy0uMTczLjM2NC0uMzAyLjc1Mi0uNTYgMS41MjZsLTEuMzYyIDQuMDgzYTEuMDYgMS4wNiAwIDAgMCAxLjM0MiAxLjM0Mmw0LjA4My0xLjM2MmMuNzc1LS4yNTggMS4xNjItLjM4NyAxLjUyNi0uNTZxLjY0Ny0uMzA4IDEuMjExLS43NDljLjMxOC0uMjQ4LjYwNy0uNTM3IDEuMTg0LTEuMTE0bTkuNDQ4LTkuNDQ4YTMuOTMyIDMuOTMyIDAgMCAwLTUuNTYxLTUuNTYxbC0uODg3Ljg4N2wuMDM4LjExMWE4Ljc1IDguNzUgMCAwIDAgMi4wOTIgMy4zMmE4Ljc1IDguNzUgMCAwIDAgMy40MzEgMi4xM3oiLz48L3N2Zz4=");
-      background-size: 12px 12px;
-      background-position: 3px;
-      background-repeat: no-repeat;
-      background-color: var(--highlight);
-      color: var(--background);
-      width: 15px !important;
-      height: 13px !important;
-      padding-bottom: 5px;
-      padding-right: 3px;
-      margin-left: 5px;
-      margin-bottom: -3px;
-      font-size: 10px;
-      font-weight: 600;
-      overflow: hidden;
-      text-align: center;
-      border-radius: 3px;
-      transition-duration: var(--transition-time)
-  }
-  
-  img[src*="avatars/219086664587280385"]+.header_c19a55:hover::after,
-  img[src*="users/219086664587280385"]+.header_c19a55:hover::after {
-      padding-left: 16px;
-      width: 70px !important
-  }
-  
-  .title_c38106::before {
-      position: fixed;
-      left: 10px;
-      color: var(--highlight);
-      content: var(--custom-title-text);
-      font-size: calc(var(--custom-title-font-size)*var(--show-custom-title));
-      font-weight: var(--custom-title-font-weight);
-      margin-top: var(--custom-title-margin-top);
-      margin-left: var(--custom-title-margin-left);
-      display: block;
-      font-family: 'Quicksand', sans-serif !important;
-  }
-  
-  .info__2debe:last-child::after {
-      content: "Purple Dreams 1.0";
-      font-size: 12px;
-      line-height: 16px;
-      color: var(--text-link);
-      font-family: 'Quicksand', sans-serif !important;
-  }
+    --brand-experiment-730: var(--highlight);
+    --brand-experiment-760: var(--highlight);
+    --brand-experiment-800: var(--highlight);
+    --brand-experiment-830: var(--highlight);
+    --brand-experiment-860: var(--highlight);
+    --brand-experiment-900: var(--highlight);
+    --brand-experiment-930: var(--highlight);
+    --brand-experiment-960: var(--highlight);
+    --brand-experiment-05a: var(--highlight);
+    --brand-experiment-10a: var(--highlight);
+    --brand-experiment-15a: var(--highlight);
+    --brand-experiment-20a: var(--highlight);
+    --brand-experiment-25a: var(--highlight);
+    --brand-experiment-30a: var(--highlight);
+    --brand-experiment-35a: var(--highlight);
+    --brand-experiment-40a: var(--highlight);
+    --brand-experiment-45a: var(--highlight);
+    --brand-experiment-50a: var(--highlight);
+    --brand-experiment-55a: var(--highlight);
+    --brand-experiment-60a: var(--highlight);
+    --brand-experiment-65a: var(--highlight);
+    --brand-experiment-70a: var(--highlight);
+    --brand-experiment-75a: var(--highlight);
+    --brand-experiment-80a: var(--highlight);
+    --brand-experiment-85a: var(--highlight);
+    --brand-experiment-90a: var(--highlight);
+    --brand-experiment-95a: var(--highlight);
+    --primary-630: var(--background);
+    --brand-500: var(--highlight);
+    --border-faint: var(--border-color);
+    --border-subtle: var(--border-color);
+    --app-border-frame: var(--border-color);
+
+    /* Additional Discord Variables */
+    --bg-base-secondary: var(--background-secondary-panels);
+    --bg-base-tertiary: var(--background);
+    --bg-surface-overlay: var(--input-field-background);
+    --bg-surface-raised: var(--background-secondary-panels);
+    --bg-overlay-floating: var(--input-field-background);
+    --home-background: var(--background);
+    --chat-background: var(--background);
+    --chat-background-default: var(--background);
+    --chat-border: var(--border-color);
+    --chat-input-container-background: var(--background);
+    --chat-text-muted: var(--text-muted);
+    --checkbox-border-default: var(--border-color);
+    --border-strong: var(--background-secondary-panels);
+    --border-normal: var(--border-color);
+    --background-mod-faint: rgba(var(--border-color-rgb), 0.05);
+    --background-mod-normal: rgba(var(--border-color-rgb), 0.15);
+    --custom-channel-members-bg: var(--background-secondary-panels);
+    --custom-status-bubble-background: var(--background);
+    --custom-status-bubble-background-color: var(--background-secondary-panels);
+    --card-primary-bg: var(--input-field-background);
+    --info-positive-background: rgba(var(--online-color-rgb), 0.15);
+    --info-positive-foreground: var(--online-color);
+    --info-positive-text: var(--text);
+    --info-warning-background: rgba(var(--afk-color-rgb), 0.15);
+    --info-warning-foreground: var(--afk-color);
+    --info-warning-text: var(--text);
+    --info-danger-background: rgba(var(--dnd-color-rgb), 0.15);
+    --info-danger-foreground: var(--dnd-color);
+    --info-danger-text: var(--text);
+    --info-help-background: rgba(var(--text-link-rgb), 0.15);
+    --info-help-foreground: var(--text-link);
+    --info-help-text: var(--text);
+    --status-positive-background: var(--online-color);
+    --status-positive-text: var(--background);
+    --status-warning-background: var(--afk-color);
+    --status-warning-text: var(--background);
+    --status-danger-background: var(--dnd-color);
+    --status-danger-text: var(--background);
+    --logo-primary: var(--text);
+    --control-brand-foreground: var(--highlight);
+    --control-brand-foreground-new: var(--highlight);
+    --mention-foreground: var(--highlight);
+    --mention-background: rgba(var(--highlight-rgb), 0.3);
+    --background-mentioned: rgba(var(--afk-color-rgb), 0.1);
+    --background-mentioned-hover: rgba(var(--afk-color-rgb), 0.08);
+    --background-message-hover: rgba(var(--border-color-rgb), 0.1);
+    --background-message-automod: rgba(var(--close-button-rgb), 0.05);
+    --background-message-automod-hover: rgba(var(--close-button-rgb), 0.1);
+    --background-message-highlight: rgba(var(--highlight-rgb), 0.08);
+    --background-message-highlight-hover: rgba(var(--highlight-rgb), 0.06);
+    --background-code: var(--background);
+    --channels-default: var(--text-muted);
+    --channel-icon: var(--text-muted);
+    --channel-text-area-placeholder: rgba(var(--text-muted-rgb), 0.5);
+    --channeltextarea-background: var(--background-secondary-panels);
+    --icon-muted: var(--border-color);
+    --icon-default: var(--text);
+    --icon-primary: var(--text);
+    --icon-secondary: var(--text-muted);
+    --icon-tertiary: var(--text-muted);
+    --activity-card-background: var(--background);
+    --textbox-markdown-syntax: var(--border-color);
+    --spoiler-revealed-background: var(--input-field-background);
+    --spoiler-hidden-background: var(--border-color);
+    --android-navigation-bar-background: var(--background);
+    --android-ripple: rgba(var(--border-color-rgb), 0.3);
+    --deprecated-card-bg: rgba(var(--background-rgb), 0.6);
+    --deprecated-card-editable-bg: rgba(var(--background-rgb), 0.3);
+    --deprecated-text-input-bg: var(--background);
+    --deprecated-text-input-border: rgba(var(--border-color-rgb), 0.3);
+    --deprecated-text-input-border-hover: var(--border-color);
+    --deprecated-text-input-border-disabled: var(--background-secondary-panels);
+    --focus-primary: var(--highlight);
+    --interactive-normal: var(--text);
+    --interactive-muted: var(--border-color);
+    --interactive-hover: var(--text);
+    --interactive-active: var(--text);
+    --search-popout-option-non-text-color: var(--text-muted);
+    --__spoiler-background-color--hidden: var(--border-color);
+    --__spoiler-warning-background-color: var(--border-color);
+    --user-profile-overlay-background: var(--background-secondary-panels);
+    --user-profile-overlay-background-hover: var(--input-field-background);
+    --plum-23: var(--background);
+    --badge-brand-bg: var(--highlight);
+    --badge-brand-text: var(--background);
+    --twitch: #b077f3;
+    --playstation: var(--text-link);
+    --spotify: var(--online-color);
+    --notice-background-critical: var(--dnd-color);
+    --notice-background-info: var(--text-link);
+    --notice-background-positive: var(--online-color);
+    --notice-background-warning: var(--afk-color);
+    --notice-text-critical: var(--background);
+    --notice-text-info: var(--background);
+    --notice-text-positive: var(--background);
+    --notice-text-warning: var(--background);
+
+    /* RGB for new variables */
+    --background-rgb: 30, 30, 46;
+}
+
+/* Selection styling */
+.visual-refresh.theme-dark ::selection,
+.visual-refresh .theme-dark ::selection {
+    background-color: var(--selection-background);
+}
+
+.theme-dark body {
+    background-color: var(--background);
+    background-image: var(--background-image);
+    background-position: var(--background-position);
+    background-size: var(--background-size);
+    backdrop-filter: blur(var(--background-blur)) brightness(var(--background-brightness));
+    font-family: 'Quicksand', sans-serif;
+}
+
+.theme-dark .appMount__51fd7,
+.theme-dark .app__160d8,
+.theme-dark .bg__960e4,
+.theme-dark .guilds_c48ade,
+.theme-dark .scroller_ef3116,
+.theme-dark .sidebar_c48ade,
+.theme-dark .sidebar_c48ade::after,
+.theme-dark .container__2637a,
+.theme-dark .chat_f75fb0,
+.theme-dark .chatContent_f75fb0,
+.theme-dark .title_f75fb0,
+.theme-dark .searchBar__97492,
+.theme-dark .container_c8ffbb,
+.theme-dark .members_c8ffbb,
+.theme-dark .content_f75fb0,
+.theme-dark .container__91a9d,
+.theme-dark .channelTextArea__74017,
+.theme-dark .container__133bf,
+.theme-dark .section__00943,
+.theme-dark .nowPlayingColumn__133bf,
+.theme-dark .container__7d20c,
+.theme-dark .itemCard__7e549,
+.theme-dark .inset_bf1984,
+.theme-dark .container__9293f,
+.theme-dark .privateChannels__35e86,
+.theme-dark .scroller__99e7c,
+.theme-dark .layer__960e4,
+.theme-dark .standardSidebarView__23e6b,
+.theme-dark .sidebarRegionScroller__23e6b,
+.theme-dark .contentRegion__23e6b,
+.theme-dark .contentRegionScroller__23e6b,
+.theme-dark .container__4a84a,
+.theme-dark .stickyHeader_adb41f,
+.theme-dark .scroller_fb04e1,
+.theme-dark .pageWrapper_a3a4ce,
+.theme-dark .footer__214dc,
+.theme-dark .container_f369db {
+    background: rgba(0, 0, 0, 0) !important
+}
+
+.theme-dark #app-mount .wrapper__44b0c rect[fill="#593695"],
+.theme-dark #app-mount .wrapper__44b0c rect[mask*=streaming] {
+    fill: var(--streaming-color)
+}
+
+.theme-dark #app-mount .wrapper__44b0c rect[fill="#43b581"],
+.theme-dark #app-mount .wrapper__44b0c rect[mask*=online] {
+    fill: var(--online-color)
+}
+
+.theme-dark #app-mount .wrapper__44b0c rect[fill="#faa61a"],
+.theme-dark #app-mount .wrapper__44b0c rect[mask*=idle] {
+    fill: var(--afk-color)
+}
+
+.theme-dark #app-mount .wrapper__44b0c rect[fill="#f04747"],
+.theme-dark #app-mount .wrapper__44b0c rect[mask*=dnd] {
+    fill: var(--dnd-color)
+}
+
+.theme-dark .numberBadge__40d6f {
+    background-color: rgba(var(--highlight-rgb), 0.7) !important;
+    color: var(--background)
+}
+
+.theme-dark .isUnread__908e2 {
+    border: 1px solid var(--highlight)
+}
+
+.theme-dark .content__908e2 {
+    color: var(--highlight)
+}
+
+.theme-dark .wrapper__2ea32:hover .unread__2ea32 {
+    background-color: var(--highlight)
+}
+
+.theme-dark .guildSeparator-33mFX6 {
+    background-color: var(--border-color);
+    border-radius: 2px
+}
+
+.theme-dark .unreadPillCapStroke__908e2 {
+    color: var(--highlight);
+    fill: var(--highlight)
+}
+
+.theme-dark .unreadPill__908e2 {
+    background-color: var(--highlight);
+    color: var(--background) !important
+}
+
+.theme-dark .bar__3b95d,
+.theme-dark .newMessagesBar__0f481 {
+    background-color: var(--highlight);
+    color: var(--background)
+}
+
+.theme-dark .membersGroup_c8ffbb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    padding: 0px
+}
+
+.theme-dark .membersGroup_c8ffbb::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    margin-right: 3px;
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(var(--text-muted-rgb), 0) 0%, var(--text-muted) 100%)
+}
+
+.theme-dark .membersGroup_c8ffbb::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    margin-left: 3px;
+    display: inline-block;
+    background: linear-gradient(90deg, var(--text-muted) 0%, rgba(var(--text-muted-rgb), 0) 100%)
+}
+
+.theme-dark .containerDefault__29444 {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.theme-dark .containerDefault__29444 div div {
+    color: var(--text-muted);
+}
+
+.theme-dark .arrow_d64d50 {
+    display: none
+}
+
+.theme-dark .container-q97qHp .overflow__82b15 {
+    max-width: 8vw
+}
+
+.theme-dark .containerDefault__29444::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    margin-right: -11px;
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(var(--text-muted-rgb), 0) 0%, var(--text-muted) 100%)
+}
+
+.theme-dark .containerDefault__29444::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    margin-left: -3px;
+    display: inline-block;
+    background: linear-gradient(90deg, var(--text-muted) 0%, rgba(var(--text-muted-rgb), 0) 100%)
+}
+
+.theme-dark .panels_c48ade {
+    background-color: var(--background-secondary-panels)
+}
+
+.theme-dark .outer_c0bea0:not(.custom-user-profile) {
+    background-color: var(--background-secondary-panels)
+}
+
+.theme-dark .outer_c0bea0:not(.custom-user-profile) .inner_c0bea0.fullSize_c0bea0,
+.theme-dark .outer_c0bea0:not(.custom-user-profile) .inner_c0bea0.biteSize_c0bea0 {
+    background: inherit
+}
+
+.theme-dark .reactionMe__23977 {
+    border-color: var(--highlight) !important
+}
+
+.theme-dark .reactionMe__23977 .reactionCount__23977 {
+    color: var(--background) !important
+}
+
+.theme-dark .reaction__23977,
+.theme-dark .reactionBtn__23977 {
+    border-color: rgba(var(--highlight-rgb), 0.3)
+}
+
+.theme-dark .reactionBtn__23977:hover {
+    border-color: var(--highlight)
+}
+
+.theme-dark .botText__82f07,
+.theme-dark .botTagVerified__82f07 {
+    color: var(--background)
+}
+
+.theme-dark .scrollableContainer__74017 {
+    background-color: var(--input-field-background)
+}
+
+.theme-dark .replying__5126c:hover {
+    background-color: rgba(var(--highlight-rgb), 0.6) !important
+}
+
+.theme-dark .ephemeral__5126c {
+    background-color: rgba(var(--highlight-rgb), 0.3)
+}
+
+.theme-dark .ephemeral__5126c:hover {
+    background-color: rgba(var(--highlight-rgb), 0.4) !important
+}
+
+.theme-dark .mentioned__5126c::before {
+    background-color: var(--highlight)
+}
+
+.theme-dark .autocompleteInner__13533 {
+    background-color: var(--input-field-background)
+}
+
+.theme-dark .selected_c69b6d .icon__2ea32,
+.theme-dark .selected_c69b6d .actionIcon_c69b6d:hover,
+.theme-dark .selected_c69b6d .name__2ea32 {
+    color: var(--highlight) !important
+}
+
+.theme-dark .selected_c69b6d .link__2ea32 {
+    background-color: rgba(var(--highlight-rgb), 0.2) !important
+}
+
+.theme-dark .contentWrapper__08434,
+.theme-dark .header__8ef02,
+.theme-dark .header_fed6d3,
+.theme-dark .header_c0e32c,
+.theme-dark .categoryList__3ad28,
+.theme-dark .scroller_affa7e,
+.theme-dark .packHeader_e94b8c,
+.theme-dark .header_c656ac,
+.theme-dark .inspector_aeaaeb,
+.theme-dark .emojiPicker_c0e32c,
+.theme-dark .unicodeShortcut_b9ee0c,
+.theme-dark #gif-picker-tab-panel {
+    background-color: var(--input-field-background)
+}
+
+.theme-dark .emptyGuildUpsell_e94b8c {
+    background-color: var(--input-field-background);
+    border: 1px solid var(--border-color);
+    margin-bottom: 2px
+}
+
+.theme-dark .emptyGuildUpsell_e94b8c .contents__201d5 {
+    color: var(--text-link)
+}
+
+.theme-dark .categoryItemDefaultCategorySelected_b9ee0c,
+.theme-dark .stickerCategoryGenericSelected__3ad28 {
+    background-color: var(--highlight)
+}
+
+.theme-dark .categoryFadeBlurple_d02962 {
+    --bg-brand: var(--highlight)
+}
+
+.theme-dark .contentWrapper__9c62c {
+    --bg-base-secondary: var(--background-secondary-panels);
+    --input-border: var(--border-color);
+    --text-link: var(--text-link);
+    --text-brand: var(--highlight);
+    --bg-mod-subtle: var(--highlight)
+}
+
+.theme-dark .appDetailsContainer_cb32c7 {
+    background-color: var(--background-secondary-panels)
+}
+
+.theme-dark .children__9293f:after,
+.theme-dark .form_f75fb0::before,
+.theme-dark .option__56fec:after {
+    display: none
+}
+
+html,
+body,
+input,
+textarea,
+.root_a28985,
+.markup_a7e664,
+.name_c04abd {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+img[src*="avatars/219086664587280385"]+.header_c19a55::after,
+img[src*="users/219086664587280385"]+.header_c19a55::after {
+    content: "Theme Author";
+    display: inline-block;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTExLjQgMTguMTYxbDcuMzk2LTcuMzk2YTEwLjMgMTAuMyAwIDAgMS0zLjMyNi0yLjIzNGExMC4zIDEwLjMgMCAwIDEtMi4yMzUtMy4zMjdMNS44MzkgMTIuNmMtLjU3Ny41NzctLjg2Ni44NjYtMS4xMTQgMS4xODRhNi42IDYuNiAwIDAgMC0uNzQ5IDEuMjExYy0uMTczLjM2NC0uMzAyLjc1Mi0uNTYgMS41MjZsLTEuMzYyIDQuMDgzYTEuMDYgMS4wNiAwIDAgMCAxLjM0MiAxLjM0Mmw0LjA4My0xLjM2MmMuNzc1LS4yNTggMS4xNjItLjM4NyAxLjUyNi0uNTZxLjY0Ny0uMzA4IDEuMjExLS43NDljLjMxOC0uMjQ4LjYwNy0uNTM3IDEuMTg0LTEuMTE0bTkuNDQ4LTkuNDQ4YTMuOTMyIDMuOTMyIDAgMCAwLTUuNTYxLTUuNTYxbC0uODg3Ljg4N2wuMDM4LjExMWE4Ljc1IDguNzUgMCAwIDAgMi4wOTIgMy4zMmE4Ljc1IDguNzUgMCAwIDAgMy40MzEgMi4xM3oiLz48L3N2Zz4=");
+    background-size: 12px 12px;
+    background-position: 3px;
+    background-repeat: no-repeat;
+    background-color: var(--highlight);
+    color: var(--background);
+    width: 15px !important;
+    height: 13px !important;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    margin-left: 5px;
+    margin-bottom: -3px;
+    font-size: 10px;
+    font-weight: 600;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 3px;
+    transition-duration: var(--transition-time)
+}
+
+img[src*="avatars/219086664587280385"]+.header_c19a55:hover::after,
+img[src*="users/219086664587280385"]+.header_c19a55:hover::after {
+    padding-left: 16px;
+    width: 70px !important
+}
+
+.title_c38106::before {
+    position: fixed;
+    left: 10px;
+    color: var(--highlight);
+    content: var(--custom-title-text);
+    font-size: calc(var(--custom-title-font-size)*var(--show-custom-title));
+    font-weight: var(--custom-title-font-weight);
+    margin-top: var(--custom-title-margin-top);
+    margin-left: var(--custom-title-margin-left);
+    display: block;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.info__2debe:last-child::after {
+    content: "Purple Dreams 2.1 - Catppuccin Mocha";
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--text-link);
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+/* Additional improvements for better Discord compatibility */
+.theme-dark .mentioned__5126c {
+    background-color: rgba(var(--afk-color-rgb), 0.1)
+}
+
+.theme-dark .mentioned__5126c:hover {
+    background-color: rgba(var(--afk-color-rgb), 0.08)
+}
+
+.theme-dark .message__5126c:hover {
+    background-color: var(--background-message-hover)
+}
+
+.theme-dark .wrapper__44b0c[aria-label*="Online"] rect {
+    fill: var(--online-color)
+}
+
+.theme-dark .wrapper__44b0c[aria-label*="Idle"] rect {
+    fill: var(--afk-color)
+}
+
+.theme-dark .wrapper__44b0c[aria-label*="Do Not Disturb"] rect {
+    fill: var(--dnd-color)
+}
+
+.theme-dark .wrapper__44b0c[aria-label*="Streaming"] rect {
+    fill: var(--streaming-color)
+}
+
+.theme-dark .mention {
+    color: var(--mention-foreground);
+    background-color: var(--mention-background)
+}
+
+.theme-dark .mention:hover {
+    color: var(--background);
+    background-color: var(--highlight)
+}
+
+.theme-dark .spoilerText__5126c {
+    background-color: var(--spoiler-hidden-background)
+}
+
+.theme-dark .spoilerText__5126c.hidden__5126c:hover {
+    background-color: rgba(var(--border-color-rgb), 0.8)
+}
+
+.theme-dark .spoilerText__5126c:not(.hidden__5126c) {
+    background-color: var(--spoiler-revealed-background)
+}
+
+.theme-dark .codeBlockSyntax__5126c {
+    color: var(--textbox-markdown-syntax)
+}
+
+.theme-dark .hljs {
+    background: var(--background-code);
+    color: var(--text)
+}
