@@ -1,5 +1,5 @@
 /**
- * @name Purple Dreams - Catppuccin Mocha
+ * @name Purple Dreams
  * @author PatrickJr
  * @version 2.1
  * @description A cute pastel purple theme inspired by Catppuccin Mocha
@@ -14,7 +14,7 @@
 :root,
 .visual-refresh,
 .visual-refresh.theme-dark {
-    /* Core Colors - Catppuccin Mocha */
+    /* Core Colors */
     --highlight: #cba6f7;
     --background: #1e1e2e;
     --text: #cdd6f4;
@@ -22,14 +22,15 @@
     --text-muted: #a6adc8;
     --border-color: #585b70;
 
-    /* Status Colors - Catppuccin Mocha */
-    --close-button: #f38ba8;
-    --online-color: #a6e3a1;
-    --afk-color: #f9e2af;
-    --dnd-color: #f38ba8;
-    --streaming-color: #cba6f7;
+    /* Status Colors (Softer Pastel Variants) */
+    --close-button: #f5c2e7;
+    --online-color: #b4d4a8;
+    --offline-color: #6c7086;
+    --afk-color: #fce8b8;
+    --dnd-color: #f5c2e7;
+    --streaming-color: #d4bbf0;
 
-    /* Panel & Input Colors - Catppuccin Mocha */
+    /* Panel & Input Colors */
     --background-secondary-panels: #181825;
     --input-field-background: #313244;
     --scrollbar-thin-thumb: var(--highlight);
@@ -73,14 +74,14 @@
     --background-base-low: var(--background);
     --background-surface-high: var(--background);
 
-    /* RGB Colors - Catppuccin Mocha */
+    /* RGB Colors (Softer Pastel Variants) */
     --highlight-rgb: 203, 166, 247;
-    --close-button-rgb: 243, 139, 168;
-    --online-color-rgb: 166, 227, 161;
-    --afk-color-rgb: 249, 226, 175;
-    --dnd-color-rgb: 243, 139, 168;
-    --streaming-color-rgb: 203, 166, 247;
-    --border-color-rgb: 88, 91, 112;
+    --close-button-rgb: 245, 194, 231;
+    --online-color-rgb: 180, 212, 168;
+    --afk-color-rgb: 252, 232, 184;
+    --dnd-color-rgb: 245, 194, 231;
+    --streaming-color-rgb: 212, 187, 240;
+    --border-color-rgb: 108, 112, 134;
     --text-link-rgb: 137, 180, 250;
     --text-muted-rgb: 166, 173, 200;
 
@@ -463,6 +464,17 @@
     fill: var(--dnd-color)
 }
 
+.theme-dark #app-mount .wrapper__44b0c rect[fill="#747f8d"],
+.theme-dark #app-mount .wrapper__44b0c rect[mask*=offline],
+.theme-dark #app-mount .wrapper__44b0c rect[fill="#80848e"],
+.theme-dark #app-mount .wrapper__44b0c rect[mask*=invisible] {
+    fill: var(--border-color) !important
+}
+
+.theme-dark #app-mount .wrapper__44b0c:not([aria-label*="Online"]):not([aria-label*="Idle"]):not([aria-label*="Do Not Disturb"]):not([aria-label*="Streaming"]) rect {
+    fill: var(--border-color) !important
+}
+
 .theme-dark .numberBadge__40d6f {
     background-color: rgba(var(--highlight-rgb), 0.7) !important;
     color: var(--background)
@@ -738,7 +750,7 @@ img[src*="users/219086664587280385"]+.header_c19a55:hover::after {
 }
 
 .info__2debe:last-child::after {
-    content: "Purple Dreams 2.1 - Catppuccin Mocha";
+    content: "Purple Dreams 2.1";
     font-size: 12px;
     line-height: 16px;
     color: var(--text-link);
@@ -756,22 +768,6 @@ img[src*="users/219086664587280385"]+.header_c19a55:hover::after {
 
 .theme-dark .message__5126c:hover {
     background-color: var(--background-message-hover)
-}
-
-.theme-dark .wrapper__44b0c[aria-label*="Online"] rect {
-    fill: var(--online-color)
-}
-
-.theme-dark .wrapper__44b0c[aria-label*="Idle"] rect {
-    fill: var(--afk-color)
-}
-
-.theme-dark .wrapper__44b0c[aria-label*="Do Not Disturb"] rect {
-    fill: var(--dnd-color)
-}
-
-.theme-dark .wrapper__44b0c[aria-label*="Streaming"] rect {
-    fill: var(--streaming-color)
 }
 
 .theme-dark .mention {
