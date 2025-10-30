@@ -4,18 +4,62 @@ A collection of custom Discord themes inspired by Catppuccin color palettes.
 
 ## Available Themes
 
+### Catppuccin-Inspired Themes
 | Theme Name | Version | Description | Preview |
 |------------|---------|-------------|---------|
-| Purple Dreams | 2.1 | A cute pastel purple theme inspired by Catppuccin Mocha with soft status colors | [View](PurpleDreams/PurpleDreams.css) |
+| Purple Dreams | 2.1 | A cute pastel purple theme inspired by Catppuccin Mocha | [View](PurpleDreams/PurpleDreams.css) |
+| Blue Ocean | 1.0 | A calming blue theme with ocean vibes | [View](BlueOcean/BlueOcean.css) |
+| Mint Fresh | 1.0 | A refreshing mint green theme | [View](MintFresh/MintFresh.css) |
+| Peach Sunset | 1.0 | A warm peach and orange theme | [View](PeachSunset/PeachSunset.css) |
+| Rose Garden | 1.0 | A romantic rose pink theme | [View](RoseGarden/RoseGarden.css) |
+| Lavender Mist | 1.0 | A soft lavender theme (Frappé variant) | [View](LavenderMist/LavenderMist.css) |
 
-### Purple Dreams Features
-- 🎨 Catppuccin Mocha color palette with purple accents
-- 💜 Soft pastel status indicators (online, idle, DND, streaming, offline)
-- ✨ Custom Quicksand font family
+### Original Custom Themes
+| Theme Name | Version | Description | Preview |
+|------------|---------|-------------|---------|
+| Cyber Neon | 1.0 | A vibrant cyberpunk theme with neon green accents | [View](CyberNeon/CyberNeon.css) |
+| Forest Mystic | 1.0 | An earthy forest theme with mystical vibes | [View](ForestMystic/ForestMystic.css) |
+| Arctic Aurora | 1.0 | A cool arctic theme with aurora borealis colors | [View](ArcticAurora/ArcticAurora.css) |
+| Midnight Ember | 1.0 | A dark theme with warm ember glow | [View](MidnightEmber/MidnightEmber.css) |
+| Velvet Noir | 1.0 | An elegant dark theme with gold accents | [View](VelvetNoir/VelvetNoir.css) |
+| Solar Flare | 1.0 | A blazing theme with bright orange and yellow sun colors | [View](SolarFlare/SolarFlare.css) |
+| Toxic Waste | 1.0 | A radioactive theme with toxic green and yellow accents | [View](ToxicWaste/ToxicWaste.css) |
+| Ocean Depth | 1.0 | A deep underwater theme with dark blue and teal accents | [View](OceanDepth/OceanDepth.css) |
+| Sakura Dream | 1.0 | A serene Japanese cherry blossom theme with soft pink | [View](SakuraDream/SakuraDream.css) |
+| Crimson Dusk | 1.0 | A dramatic theme with deep crimson and burgundy tones | [View](CrimsonDusk/CrimsonDusk.css) |
+
+### Theme Features
+All themes include:
+- 🎨 Unique color palettes with carefully chosen accent colors
+- 💜 Custom status indicators (online, idle, DND, streaming, offline)
+- ✨ Custom font families (Quicksand, Orbitron, Playfair Display, Rajdhani, Share Tech Mono, Montserrat, Noto Sans JP, Cinzel, Merriweather, Exo 2, Poppins)
 - 🌙 Dark mode optimized backgrounds
 - 🎯 Enhanced Discord UI compatibility
 - 📝 Improved message, mention, and spoiler styling
 - 💬 Better code block and syntax highlighting support
+- 🔧 700+ CSS variables for complete customization
+- 🎭 Unique visual styles ranging from pastel to cyberpunk
+
+### Theme Styles
+**Catppuccin-Inspired:**
+- **Purple Dreams**: Soft purple/lavender (Mocha)
+- **Blue Ocean**: Calming blue/sky
+- **Mint Fresh**: Fresh mint/teal
+- **Peach Sunset**: Warm peach/orange
+- **Rose Garden**: Romantic pink/rose
+- **Lavender Mist**: Soft lavender (Frappé)
+
+**Original Custom:**
+- **Cyber Neon**: Vibrant neon green cyberpunk (Orbitron font)
+- **Forest Mystic**: Earthy green forest vibes (Merriweather font)
+- **Arctic Aurora**: Cool cyan aurora borealis (Exo 2 font)
+- **Midnight Ember**: Warm orange ember glow (Poppins font)
+- **Velvet Noir**: Elegant gold on black (Playfair Display font)
+- **Solar Flare**: Blazing orange/yellow sun theme (Rajdhani font)
+- **Toxic Waste**: Radioactive neon green (Share Tech Mono font)
+- **Ocean Depth**: Deep underwater blue/teal (Montserrat font)
+- **Sakura Dream**: Soft pink cherry blossom (Noto Sans JP font)
+- **Crimson Dusk**: Deep red/burgundy dramatic (Cinzel font)
 
 ## Installation Instructions
 
@@ -51,7 +95,9 @@ A collection of custom Discord themes inspired by Catppuccin color palettes.
 - **Theme conflicts?** Make sure only one theme is enabled at a time
 - **Updating a theme?** Delete the old file and add the new version
 - **Colors look wrong?** Ensure you're using Discord's dark mode
-- **Status colors not working?** Clear Discord cache and restart
+
+### Known Issues
+- ⚠️ **Status indicators**: Currently not displaying correctly for offline users. This will be fixed in the next update.
 
 ## Customization
 

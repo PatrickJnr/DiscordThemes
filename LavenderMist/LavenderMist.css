@@ -1,8 +1,8 @@
 /**
- * @name Purple Dreams
+ * @name Lavender Mist
  * @author PatrickJr
- * @version 2.1
- * @description A cute pastel purple theme inspired by Catppuccin Mocha
+ * @version 1.0
+ * @description A soft lavender theme inspired by Catppuccin Frappé
  * @authorId 219086664587280385
  * @authorLink https://grimtech.co.uk
  * @source https://github.com/PatrickJnr/DiscordThemes
@@ -14,25 +14,25 @@
 :root,
 .visual-refresh,
 .visual-refresh.theme-dark {
-    /* Core Colors */
-    --highlight: #cba6f7;
-    --background: #1e1e2e;
-    --text: #cdd6f4;
-    --text-link: #89b4fa;
-    --text-muted: #a6adc8;
-    --border-color: #585b70;
+    /* Core Colors - Lavender Mist (Frappé) */
+    --highlight: #ca9ee6;
+    --background: #303446;
+    --text: #c6d0f5;
+    --text-link: #8caaee;
+    --text-muted: #a5adce;
+    --border-color: #626880;
 
     /* Status Colors */
-    --close-button: #f5c2e7;
-    --online-color: #b4d4a8;
-    --offline-color: #6c7086;
-    --afk-color: #fce8b8;
-    --dnd-color: #f5c2e7;
+    --close-button: #f4b8e4;
+    --online-color: #b8d4a8;
+    --offline-color: #737994;
+    --afk-color: #f0e5b8;
+    --dnd-color: #f4b8e4;
     --streaming-color: #d4bbf0;
 
     /* Panel & Input Colors */
-    --background-secondary-panels: #181825;
-    --input-field-background: #313244;
+    --background-secondary-panels: #292c3c;
+    --input-field-background: #414559;
     --scrollbar-thin-thumb: var(--highlight);
     --scrollbar-auto-thumb: var(--highlight);
     --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
@@ -47,7 +47,7 @@
     --background-brightness: 100%;
     --show-original-title: 0;
     --show-custom-title: 1;
-    --custom-title-text: "Purple Dreams - Mocha";
+    --custom-title-text: "Lavender Mist";
     --custom-title-font-size: 16px;
     --custom-title-font-weight: 500;
     --custom-title-margin-top: 0px;
@@ -75,15 +75,15 @@
     --background-surface-high: var(--background);
 
     /* RGB Colors (Softer Pastel Variants) */
-    --highlight-rgb: 203, 166, 247;
-    --close-button-rgb: 245, 194, 231;
-    --online-color-rgb: 180, 212, 168;
-    --afk-color-rgb: 252, 232, 184;
-    --dnd-color-rgb: 245, 194, 231;
+    --highlight-rgb: 202, 158, 230;
+    --close-button-rgb: 244, 184, 228;
+    --online-color-rgb: 184, 212, 168;
+    --afk-color-rgb: 240, 229, 184;
+    --dnd-color-rgb: 244, 184, 228;
     --streaming-color-rgb: 212, 187, 240;
-    --border-color-rgb: 108, 112, 134;
-    --text-link-rgb: 137, 180, 250;
-    --text-muted-rgb: 166, 173, 200;
+    --border-color-rgb: 98, 104, 128;
+    --text-link-rgb: 140, 170, 238;
+    --text-muted-rgb: 165, 173, 206;
 
     /* Danger Buttons */
     --button-danger-background: rgba(var(--close-button-rgb), 0.2);
@@ -386,7 +386,7 @@
     --notice-text-warning: var(--background);
 
     /* RGB for new variables */
-    --background-rgb: 30, 30, 46;
+    --background-rgb: 48, 52, 70;
 }
 
 /* Selection styling */
@@ -750,7 +750,7 @@ img[src*="users/219086664587280385"]+.header_c19a55:hover::after {
 }
 
 .info__2debe:last-child::after {
-    content: "Purple Dreams 2.1";
+    content: "Lavender Mist 1.0";
     font-size: 12px;
     line-height: 16px;
     color: var(--text-link);

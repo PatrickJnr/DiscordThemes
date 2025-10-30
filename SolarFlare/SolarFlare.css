@@ -1,38 +1,38 @@
 /**
- * @name Purple Dreams
+ * @name Solar Flare
  * @author PatrickJr
- * @version 2.1
- * @description A cute pastel purple theme inspired by Catppuccin Mocha
+ * @version 1.0
+ * @description A blazing theme with bright orange and yellow sun colors
  * @authorId 219086664587280385
  * @authorLink https://grimtech.co.uk
  * @source https://github.com/PatrickJnr/DiscordThemes
  * @website https://grimtech.co.uk
  */
 
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap");
 
 :root,
 .visual-refresh,
 .visual-refresh.theme-dark {
-    /* Core Colors */
-    --highlight: #cba6f7;
-    --background: #1e1e2e;
-    --text: #cdd6f4;
-    --text-link: #89b4fa;
-    --text-muted: #a6adc8;
-    --border-color: #585b70;
+    /* Core Colors - Solar Flare */
+    --highlight: #ff9500;
+    --background: #1a1108;
+    --text: #ffe8cc;
+    --text-link: #ffb347;
+    --text-muted: #c9a875;
+    --border-color: #3d2a1a;
 
     /* Status Colors */
-    --close-button: #f5c2e7;
-    --online-color: #b4d4a8;
-    --offline-color: #6c7086;
-    --afk-color: #fce8b8;
-    --dnd-color: #f5c2e7;
-    --streaming-color: #d4bbf0;
+    --close-button: #ff4757;
+    --online-color: #7ed321;
+    --offline-color: #5a4a3a;
+    --afk-color: #ffd700;
+    --dnd-color: #ff4757;
+    --streaming-color: #ff6b35;
 
     /* Panel & Input Colors */
-    --background-secondary-panels: #181825;
-    --input-field-background: #313244;
+    --background-secondary-panels: #140d05;
+    --input-field-background: #2a1d0f;
     --scrollbar-thin-thumb: var(--highlight);
     --scrollbar-auto-thumb: var(--highlight);
     --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
@@ -47,7 +47,7 @@
     --background-brightness: 100%;
     --show-original-title: 0;
     --show-custom-title: 1;
-    --custom-title-text: "Purple Dreams - Mocha";
+    --custom-title-text: "Solar Flare";
     --custom-title-font-size: 16px;
     --custom-title-font-weight: 500;
     --custom-title-margin-top: 0px;
@@ -74,16 +74,16 @@
     --background-base-low: var(--background);
     --background-surface-high: var(--background);
 
-    /* RGB Colors (Softer Pastel Variants) */
-    --highlight-rgb: 203, 166, 247;
-    --close-button-rgb: 245, 194, 231;
-    --online-color-rgb: 180, 212, 168;
-    --afk-color-rgb: 252, 232, 184;
-    --dnd-color-rgb: 245, 194, 231;
-    --streaming-color-rgb: 212, 187, 240;
-    --border-color-rgb: 108, 112, 134;
-    --text-link-rgb: 137, 180, 250;
-    --text-muted-rgb: 166, 173, 200;
+    /* RGB Colors */
+    --highlight-rgb: 255, 149, 0;
+    --close-button-rgb: 255, 71, 87;
+    --online-color-rgb: 126, 211, 33;
+    --afk-color-rgb: 255, 215, 0;
+    --dnd-color-rgb: 255, 71, 87;
+    --streaming-color-rgb: 255, 107, 53;
+    --border-color-rgb: 61, 42, 26;
+    --text-link-rgb: 255, 179, 71;
+    --text-muted-rgb: 201, 168, 117;
 
     /* Danger Buttons */
     --button-danger-background: rgba(var(--close-button-rgb), 0.2);
@@ -386,7 +386,7 @@
     --notice-text-warning: var(--background);
 
     /* RGB for new variables */
-    --background-rgb: 30, 30, 46;
+    --background-rgb: 26, 17, 8;
 }
 
 /* Selection styling */
@@ -703,7 +703,7 @@ textarea,
 .root_a28985,
 .markup_a7e664,
 .name_c04abd {
-    font-family: 'Quicksand', sans-serif !important;
+    font-family: 'Rajdhani', sans-serif !important;
 }
 
 img[src*="avatars/219086664587280385"]+.header_c19a55::after,
@@ -750,7 +750,7 @@ img[src*="users/219086664587280385"]+.header_c19a55:hover::after {
 }
 
 .info__2debe:last-child::after {
-    content: "Purple Dreams 2.1";
+    content: "Solar Flare 1.0";
     font-size: 12px;
     line-height: 16px;
     color: var(--text-link);

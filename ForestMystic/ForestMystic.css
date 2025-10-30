@@ -1,38 +1,38 @@
 /**
- * @name Purple Dreams
+ * @name Forest Mystic
  * @author PatrickJr
- * @version 2.1
- * @description A cute pastel purple theme inspired by Catppuccin Mocha
+ * @version 1.0
+ * @description An earthy forest theme with mystical vibes
  * @authorId 219086664587280385
  * @authorLink https://grimtech.co.uk
  * @source https://github.com/PatrickJnr/DiscordThemes
  * @website https://grimtech.co.uk
  */
 
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
 
 :root,
 .visual-refresh,
 .visual-refresh.theme-dark {
-    /* Core Colors */
-    --highlight: #cba6f7;
-    --background: #1e1e2e;
-    --text: #cdd6f4;
-    --text-link: #89b4fa;
-    --text-muted: #a6adc8;
-    --border-color: #585b70;
+    /* Core Colors - Forest Mystic */
+    --highlight: #7fb069;
+    --background: #1a1f1a;
+    --text: #d4e4d4;
+    --text-link: #9bc995;
+    --text-muted: #8a9a8a;
+    --border-color: #2d3a2d;
 
     /* Status Colors */
-    --close-button: #f5c2e7;
-    --online-color: #b4d4a8;
-    --offline-color: #6c7086;
-    --afk-color: #fce8b8;
-    --dnd-color: #f5c2e7;
-    --streaming-color: #d4bbf0;
+    --close-button: #d4697a;
+    --online-color: #7fb069;
+    --offline-color: #4a5a4a;
+    --afk-color: #e8b55d;
+    --dnd-color: #d4697a;
+    --streaming-color: #a78bfa;
 
     /* Panel & Input Colors */
-    --background-secondary-panels: #181825;
-    --input-field-background: #313244;
+    --background-secondary-panels: #151a15;
+    --input-field-background: #242d24;
     --scrollbar-thin-thumb: var(--highlight);
     --scrollbar-auto-thumb: var(--highlight);
     --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
@@ -47,7 +47,7 @@
     --background-brightness: 100%;
     --show-original-title: 0;
     --show-custom-title: 1;
-    --custom-title-text: "Purple Dreams - Mocha";
+    --custom-title-text: "Forest Mystic";
     --custom-title-font-size: 16px;
     --custom-title-font-weight: 500;
     --custom-title-margin-top: 0px;
@@ -74,16 +74,16 @@
     --background-base-low: var(--background);
     --background-surface-high: var(--background);
 
-    /* RGB Colors (Softer Pastel Variants) */
-    --highlight-rgb: 203, 166, 247;
-    --close-button-rgb: 245, 194, 231;
-    --online-color-rgb: 180, 212, 168;
-    --afk-color-rgb: 252, 232, 184;
-    --dnd-color-rgb: 245, 194, 231;
-    --streaming-color-rgb: 212, 187, 240;
-    --border-color-rgb: 108, 112, 134;
-    --text-link-rgb: 137, 180, 250;
-    --text-muted-rgb: 166, 173, 200;
+    /* RGB Colors */
+    --highlight-rgb: 127, 176, 105;
+    --close-button-rgb: 212, 105, 122;
+    --online-color-rgb: 127, 176, 105;
+    --afk-color-rgb: 232, 181, 93;
+    --dnd-color-rgb: 212, 105, 122;
+    --streaming-color-rgb: 167, 139, 250;
+    --border-color-rgb: 45, 58, 45;
+    --text-link-rgb: 155, 201, 149;
+    --text-muted-rgb: 138, 154, 138;
 
     /* Danger Buttons */
     --button-danger-background: rgba(var(--close-button-rgb), 0.2);
@@ -386,7 +386,7 @@
     --notice-text-warning: var(--background);
 
     /* RGB for new variables */
-    --background-rgb: 30, 30, 46;
+    --background-rgb: 26, 31, 26;
 }
 
 /* Selection styling */
@@ -703,7 +703,7 @@ textarea,
 .root_a28985,
 .markup_a7e664,
 .name_c04abd {
-    font-family: 'Quicksand', sans-serif !important;
+    font-family: 'Merriweather', serif !important;
 }
 
 img[src*="avatars/219086664587280385"]+.header_c19a55::after,
@@ -750,7 +750,7 @@ img[src*="users/219086664587280385"]+.header_c19a55:hover::after {
 }
 
 .info__2debe:last-child::after {
-    content: "Purple Dreams 2.1";
+    content: "Forest Mystic 1.0";
     font-size: 12px;
     line-height: 16px;
     color: var(--text-link);

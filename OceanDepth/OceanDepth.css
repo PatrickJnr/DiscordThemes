@@ -1,38 +1,38 @@
 /**
- * @name Purple Dreams
+ * @name Ocean Depth
  * @author PatrickJr
- * @version 2.1
- * @description A cute pastel purple theme inspired by Catppuccin Mocha
+ * @version 1.0
+ * @description A deep underwater theme with dark blue and teal accents
  * @authorId 219086664587280385
  * @authorLink https://grimtech.co.uk
  * @source https://github.com/PatrickJnr/DiscordThemes
  * @website https://grimtech.co.uk
  */
 
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 :root,
 .visual-refresh,
 .visual-refresh.theme-dark {
-    /* Core Colors */
-    --highlight: #cba6f7;
-    --background: #1e1e2e;
-    --text: #cdd6f4;
-    --text-link: #89b4fa;
-    --text-muted: #a6adc8;
-    --border-color: #585b70;
+    /* Core Colors - Ocean Depth */
+    --highlight: #00bcd4;
+    --background: #0a1628;
+    --text: #d4f1f9;
+    --text-link: #26c6da;
+    --text-muted: #7fa8b8;
+    --border-color: #1a2f42;
 
     /* Status Colors */
-    --close-button: #f5c2e7;
-    --online-color: #b4d4a8;
-    --offline-color: #6c7086;
-    --afk-color: #fce8b8;
-    --dnd-color: #f5c2e7;
-    --streaming-color: #d4bbf0;
+    --close-button: #ff5252;
+    --online-color: #00e676;
+    --offline-color: #3a4a5a;
+    --afk-color: #ffd740;
+    --dnd-color: #ff5252;
+    --streaming-color: #7c4dff;
 
     /* Panel & Input Colors */
-    --background-secondary-panels: #181825;
-    --input-field-background: #313244;
+    --background-secondary-panels: #050d1a;
+    --input-field-background: #0f1f35;
     --scrollbar-thin-thumb: var(--highlight);
     --scrollbar-auto-thumb: var(--highlight);
     --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
@@ -47,7 +47,7 @@
     --background-brightness: 100%;
     --show-original-title: 0;
     --show-custom-title: 1;
-    --custom-title-text: "Purple Dreams - Mocha";
+    --custom-title-text: "Ocean Depth";
     --custom-title-font-size: 16px;
     --custom-title-font-weight: 500;
     --custom-title-margin-top: 0px;
@@ -74,16 +74,16 @@
     --background-base-low: var(--background);
     --background-surface-high: var(--background);
 
-    /* RGB Colors (Softer Pastel Variants) */
-    --highlight-rgb: 203, 166, 247;
-    --close-button-rgb: 245, 194, 231;
-    --online-color-rgb: 180, 212, 168;
-    --afk-color-rgb: 252, 232, 184;
-    --dnd-color-rgb: 245, 194, 231;
-    --streaming-color-rgb: 212, 187, 240;
-    --border-color-rgb: 108, 112, 134;
-    --text-link-rgb: 137, 180, 250;
-    --text-muted-rgb: 166, 173, 200;
+    /* RGB Colors */
+    --highlight-rgb: 0, 188, 212;
+    --close-button-rgb: 255, 82, 82;
+    --online-color-rgb: 0, 230, 118;
+    --afk-color-rgb: 255, 215, 64;
+    --dnd-color-rgb: 255, 82, 82;
+    --streaming-color-rgb: 124, 77, 255;
+    --border-color-rgb: 26, 47, 66;
+    --text-link-rgb: 38, 198, 218;
+    --text-muted-rgb: 127, 168, 184;
 
     /* Danger Buttons */
     --button-danger-background: rgba(var(--close-button-rgb), 0.2);
@@ -386,7 +386,7 @@
     --notice-text-warning: var(--background);
 
     /* RGB for new variables */
-    --background-rgb: 30, 30, 46;
+    --background-rgb: 10, 22, 40;
 }
 
 /* Selection styling */
@@ -703,7 +703,7 @@ textarea,
 .root_a28985,
 .markup_a7e664,
 .name_c04abd {
-    font-family: 'Quicksand', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 img[src*="avatars/219086664587280385"]+.header_c19a55::after,
@@ -750,7 +750,7 @@ img[src*="users/219086664587280385"]+.header_c19a55:hover::after {
 }
 
 .info__2debe:last-child::after {
-    content: "Purple Dreams 2.1";
+    content: "Ocean Depth 1.0";
     font-size: 12px;
     line-height: 16px;
     color: var(--text-link);

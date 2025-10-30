@@ -1,8 +1,8 @@
 /**
- * @name Purple Dreams
+ * @name Blue Ocean
  * @author PatrickJr
- * @version 2.1
- * @description A cute pastel purple theme inspired by Catppuccin Mocha
+ * @version 1.0
+ * @description A calming blue theme inspired by Catppuccin Mocha
  * @authorId 219086664587280385
  * @authorLink https://grimtech.co.uk
  * @source https://github.com/PatrickJnr/DiscordThemes
@@ -14,11 +14,11 @@
 :root,
 .visual-refresh,
 .visual-refresh.theme-dark {
-    /* Core Colors */
-    --highlight: #cba6f7;
+    /* Core Colors - Blue Ocean */
+    --highlight: #89b4fa;
     --background: #1e1e2e;
     --text: #cdd6f4;
-    --text-link: #89b4fa;
+    --text-link: #74c7ec;
     --text-muted: #a6adc8;
     --border-color: #585b70;
 
@@ -28,7 +28,7 @@
     --offline-color: #6c7086;
     --afk-color: #fce8b8;
     --dnd-color: #f5c2e7;
-    --streaming-color: #d4bbf0;
+    --streaming-color: #b4befe;
 
     /* Panel & Input Colors */
     --background-secondary-panels: #181825;
@@ -47,7 +47,7 @@
     --background-brightness: 100%;
     --show-original-title: 0;
     --show-custom-title: 1;
-    --custom-title-text: "Purple Dreams - Mocha";
+    --custom-title-text: "Blue Ocean";
     --custom-title-font-size: 16px;
     --custom-title-font-weight: 500;
     --custom-title-margin-top: 0px;
@@ -75,14 +75,14 @@
     --background-surface-high: var(--background);
 
     /* RGB Colors (Softer Pastel Variants) */
-    --highlight-rgb: 203, 166, 247;
+    --highlight-rgb: 137, 180, 250;
     --close-button-rgb: 245, 194, 231;
     --online-color-rgb: 180, 212, 168;
     --afk-color-rgb: 252, 232, 184;
     --dnd-color-rgb: 245, 194, 231;
-    --streaming-color-rgb: 212, 187, 240;
+    --streaming-color-rgb: 180, 190, 254;
     --border-color-rgb: 108, 112, 134;
-    --text-link-rgb: 137, 180, 250;
+    --text-link-rgb: 116, 199, 236;
     --text-muted-rgb: 166, 173, 200;
 
     /* Danger Buttons */
@@ -750,7 +750,7 @@ img[src*="users/219086664587280385"]+.header_c19a55:hover::after {
 }
 
 .info__2debe:last-child::after {
-    content: "Purple Dreams 2.1";
+    content: "Blue Ocean 1.0";
     font-size: 12px;
     line-height: 16px;
     color: var(--text-link);
